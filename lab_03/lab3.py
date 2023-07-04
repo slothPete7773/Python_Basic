@@ -42,7 +42,7 @@ for file_name in [i for i in DIR_LIST if re.match("^DESCRIBE_LOG_EVENTS_[0-9]{8}
                 else:
                     if not (re.match("^\d{4}.+$", line)):
                         continue
-                    accumulated_log.append(line.split("|"))
+                    accumulated_log.append(line.rstrip().split("|"))
                     line_count += 1
 
 
