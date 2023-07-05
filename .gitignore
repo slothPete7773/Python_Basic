@@ -1,4 +1,5 @@
 lab_03/output/special_phonenumber.txt
+lab_03/output/**
 
 # virtual env
 **/.venv
